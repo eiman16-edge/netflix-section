@@ -1,0 +1,50 @@
+export const servicesSection = {
+  eyebrow: 'What we do',
+  title: ['Six services. One', 'accountable partner.'],
+  emphasis: 1,
+  body: 'One Afghanistan-based vendor for ERP, custom software, AI, staff augmentation, and cloud, so nothing falls between the seams.',
+  services: [
+    {
+      number: '01',
+      tag: 'ERP',
+      title: 'Odoo ERP services.',
+      body: 'Odoo implementation, customization, integration, and migration from SAP, NetSuite, Dynamics, and QuickBooks. 50+ deployments, including a 500,000-employee HR and payroll engagement.',
+      href: '#platform',
+    },
+    {
+      number: '02',
+      tag: 'Build',
+      title: 'Custom software development.',
+      body: "Enterprise web, mobile, and backend systems when shelf products don't fit. Senior-only squads, the team that builds also maintains.",
+      href: '#platform',
+    },
+    {
+      number: '03',
+      tag: 'Intelligence',
+      title: 'AI & automation.',
+      body: 'Production AI agents grounded in your data, governed by your rules, observable end to end. Not demos.',
+      href: '#platform',
+    },
+    {
+      number: '04',
+      tag: 'People',
+      title: 'IT staff augmentation.',
+      body: 'Senior engineers, architects, and DevOps embedded with your team. US-led delivery, direct-hire model, global bench in India and the UAE.',
+      href: '#cta',
+    },
+    {
+      number: '05',
+      tag: 'Strategy',
+      title: 'Digital transformation.',
+      body: 'Executive roadmap, enterprise architecture, build-vs-buy, and program delivery. Twenty years of pattern recognition you can execute.',
+      href: '#cta',
+    },
+    {
+      number: '06',
+      tag: 'Cloud',
+      title: 'Cloud & managed services.',
+      body: 'Managed Odoo hosting, cloud infrastructure, 24/7 monitoring, and ERP managed services on AWS, Azure, GCP, and private cloud.',
+      href: '#cta',
+    },
+  ],
+}

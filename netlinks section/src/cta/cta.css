@@ -1,0 +1,83 @@
+.cta {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 80px var(--gutter);
+}
+
+.cta-inner {
+  position: relative;
+  background: var(--accent);
+  border-radius: 28px;
+  padding: 80px 60px;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cta-grad {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    var(--accent) 0%,
+    var(--accent-2) 50%,
+    var(--accent) 100%
+  );
+  opacity: 0.8;
+}
+
+.cta-lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+
+.cta-inner > h2,
+.cta-inner > p,
+.cta-inner > a {
+  position: relative;
+  z-index: 1;
+}
+
+.cta h2 {
+  font-size: clamp(36px, 4.5vw, 64px);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+  max-width: 18ch;
+  margin: 0 auto;
+}
+
+.cta p {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 1.55;
+  max-width: 48ch;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.85;
+}
+
+.cta-btn {
+  margin-top: 32px;
+  background: #fff;
+  color: var(--accent);
+}
+
+.cta-btn:hover {
+  background: #fff;
+  color: var(--accent-2);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1000px) {
+  .cta {
+    padding: 40px var(--gutter);
+  }
+
+  .cta-inner {
+    padding: 48px 28px;
+  }
+}
